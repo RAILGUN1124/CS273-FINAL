@@ -1,2 +1,1 @@
-# Large model checkpoints
-**/final_saved_model/model.safetensors
+# Large model checkpoints are tracked with Git LFS
