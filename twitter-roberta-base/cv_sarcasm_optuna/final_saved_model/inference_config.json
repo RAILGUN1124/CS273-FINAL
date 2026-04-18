@@ -1,0 +1,13 @@
+{
+  "selected_threshold": 0.4,
+  "max_length": 96,
+  "label2id": {
+    "not_sarcastic": 0,
+    "sarcastic": 1
+  },
+  "id2label": {
+    "0": "not_sarcastic",
+    "1": "sarcastic"
+  },
+  "base_model_name": "cardiffnlp/twitter-roberta-base"
+}
