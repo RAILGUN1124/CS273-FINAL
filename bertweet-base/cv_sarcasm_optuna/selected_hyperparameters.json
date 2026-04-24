@@ -1,0 +1,26 @@
+{
+  "best_params": {
+    "learning_rate": 3.930307832703071e-05,
+    "batch_size": 32,
+    "epochs": 5,
+    "weight_decay": 0.062456575327916174,
+    "warmup_ratio": 0.10387183009620649,
+    "label_smoothing_factor": 0.0,
+    "hidden_dropout_prob": 0.1
+  },
+  "selected_threshold": 0.51,
+  "best_oof_cv_metrics": {
+    "accuracy": 0.9022277695828133,
+    "precision": 0.8614649681528662,
+    "recall": 0.8926526254488983,
+    "f1": 0.8767815434482101,
+    "roc_auc": 0.9609512966822675,
+    "tn": 14657,
+    "fp": 1479,
+    "fn": 1106,
+    "tp": 9197,
+    "threshold": 0.51
+  },
+  "best_trial_number": 26,
+  "best_trial_value": 0.8767815434482101
+}

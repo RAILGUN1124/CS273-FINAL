@@ -1,0 +1,12 @@
+========== EVALUATION STATISTICS ==========
+Total Samples:   2938
+Threshold:       0.51
+Accuracy:        0.9105
+Precision:       0.9024
+Recall:          0.8638
+F1 Score:        0.8826
+RoC-AUC:         0.9691
+True Negatives:  1686
+False Positives: 107
+False Negatives: 156
+True Positives:  989
