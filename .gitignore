@@ -1,4 +1,2 @@
 # Large model checkpoints are tracked with Git LFS
-**/model.safetensors
-**/*.bin
-**/training_args.bin
+.DS_Store
