@@ -1,0 +1,119 @@
+{
+  "baseline_lr": {
+    "best_cv_macro_f1": 0.8338957057963746,
+    "best_params": {
+      "clf__C": 3.683151106517762,
+      "clf__class_weight": null,
+      "clf__penalty": "l1",
+      "preprocess__text__max_df": 0.95,
+      "preprocess__text__max_features": 20000,
+      "preprocess__text__min_df": 5,
+      "preprocess__text__ngram_range": [
+        1,
+        2
+      ],
+      "preprocess__text__sublinear_tf": true
+    }
+  },
+  "baseline_rf": {
+    "best_cv_macro_f1": 0.8093881338251453,
+    "best_params": {
+      "clf__bootstrap": true,
+      "clf__class_weight": "balanced_subsample",
+      "clf__max_depth": 30,
+      "clf__max_features": 0.5,
+      "clf__max_samples": 0.7,
+      "clf__min_samples_leaf": 2,
+      "clf__min_samples_split": 9,
+      "clf__n_estimators": 277
+    }
+  },
+  "baseline_xgb": {
+    "best_cv_macro_f1": 0.8156378388395931,
+    "best_params": {
+      "clf__colsample_bytree": 0.790021126953127,
+      "clf__gamma": 0.3485842360750871,
+      "clf__learning_rate": 0.13780776958458138,
+      "clf__max_depth": 6,
+      "clf__min_child_weight": 4,
+      "clf__n_estimators": 149,
+      "clf__reg_lambda": 2.4207331873591027,
+      "clf__scale_pos_weight": 1.566145782781714,
+      "clf__subsample": 0.686626386410202
+    }
+  },
+  "method2_lr": {
+    "best_cv_macro_f1": 0.7877548416623815,
+    "best_params": {
+      "clf__C": 12.484909844460324,
+      "clf__class_weight": null,
+      "clf__penalty": "l2",
+      "preprocess__text__max_df": 0.98,
+      "preprocess__text__max_features": 20000,
+      "preprocess__text__min_df": 5,
+      "preprocess__text__ngram_range": [
+        1,
+        1
+      ],
+      "preprocess__text__sublinear_tf": false
+    }
+  },
+  "method2_rf": {
+    "best_cv_macro_f1": 0.8212878809819337,
+    "best_params": {
+      "clf__bootstrap": true,
+      "clf__class_weight": "balanced_subsample",
+      "clf__max_depth": 30,
+      "clf__max_features": 0.5,
+      "clf__max_samples": 0.7,
+      "clf__min_samples_leaf": 2,
+      "clf__min_samples_split": 9,
+      "clf__n_estimators": 277
+    }
+  },
+  "method2_xgb": {
+    "best_cv_macro_f1": 0.8245972433158165,
+    "best_params": {
+      "clf__colsample_bytree": 0.6323674280979913,
+      "clf__gamma": 0.012571674274693702,
+      "clf__learning_rate": 0.10033798041734301,
+      "clf__max_depth": 6,
+      "clf__min_child_weight": 5,
+      "clf__n_estimators": 215,
+      "clf__reg_lambda": 0.7536627571597799,
+      "clf__scale_pos_weight": 1.0,
+      "clf__subsample": 0.7247876687446625
+    }
+  },
+  "method2b_lr": {
+    "best_cv_macro_f1": 0.786248599759215,
+    "best_params": {
+      "clf__C": 15.922610892912946,
+      "clf__class_weight": "balanced",
+      "clf__l1_ratio": 0.21364247048639057,
+      "clf__penalty": "elasticnet",
+      "preprocess__text__max_df": 0.95,
+      "preprocess__text__max_features": 20000,
+      "preprocess__text__min_df": 3,
+      "preprocess__text__ngram_range": [
+        1,
+        2
+      ],
+      "preprocess__text__sublinear_tf": true
+    }
+  },
+  "method2b_xgb": {
+    "best_cv_macro_f1": 0.8244113144634347,
+    "best_params": {
+      "clf__colsample_bytree": 0.6323674280979913,
+      "clf__gamma": 0.012571674274693702,
+      "clf__learning_rate": 0.10033798041734301,
+      "clf__max_depth": 6,
+      "clf__min_child_weight": 5,
+      "clf__n_estimators": 215,
+      "clf__reg_lambda": 0.7536627571597799,
+      "clf__scale_pos_weight": 1.0,
+      "clf__subsample": 0.7247876687446625
+    }
+  }
+}
